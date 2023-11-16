@@ -1,0 +1,24 @@
+id: 59c68289-b440-43db-9307-c8c30c6f58c4
+timestamp: 2023-11-16T23:46:13.441Z
+source: TAP-GUI
+username: vrabbi
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  repoVisibility: public
+  projectName: test-acc-v3
+  buildTool: maven
+  springBootVersion: 2.7
+  nativeBuild: false
+  javaVersion: 11
+  includeBuildToolWrapper: true
+  includeDevContainer: false
+  owner: cna-team
+  bsGitRepository: github.com?owner=vrabbi&repo=test-acc-v3
